@@ -1,0 +1,54 @@
+{
+    "workbench.trustedDomains.promptInTrustedWorkspace": true,
+    "security.workspace.trust.enabled": false,
+    "remote.SSH.remotePlatform": {
+        "centos7": "linux",
+        "nfs-8": "linux",
+        "iie-g4-server": "linux",
+        "centos8": "linux",
+        "openkylin": "linux",
+        "ubuntu2004": "linux"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "notebook.lineNumbers": "on",
+    "editor.codeActionsOnSave": {
+
+    }, 
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark+]": {
+            "rules": {
+                "parameter":{
+                    "foreground": "#EE6363", 
+                    "fontStyle": ""
+                }
+            }
+        }
+    },
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-a>": false,
+        "<C-p>": false, // vscode 命令模式
+        "<C-k>": false, // vscode leader
+        "<C-t>": false, // vscode leader下 选择主题
+        "<C-c>": false, 
+        "<C-v>": false, 
+        "<C-x>": false, 
+        "<C-z>": false, 
+        "<C-j>": false, // vscode 下侧边栏(终端)
+        "<C-b>": false, // vscode 左侧边栏(文件目录树)
+    },
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "j"], 
+            "after": ["<ESC>"]
+        }
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "python.defaultInterpreterPath": "C:\\Users\\10147\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+}
